@@ -23,7 +23,7 @@ function createmap(e) {
     }
 
     const g = new google.maps.Map(document.getElementById("map-div"), {
-        zoom: 11,
+        zoom: 9,
         center: a[0]
     });
 
