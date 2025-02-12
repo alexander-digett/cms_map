@@ -14,7 +14,7 @@ function createmap(e) {
                 tittle: n[M].innerHTML,
                 lat: Number(t[M].innerHTML),
                 lng: Number(s[M].innerHTML),
-                icon: "https://yourdomain.com/custom-marker.png", // Default marker image
+                icon: "https://cdn.prod.website-files.com/65806d348e62b54ace7108bb/67ace3f520cf7a0e64d5b8f6_TVCR_Location_Marker.png", // Default marker image
                 contdiv: '<div class="info-box"><img class="projimg" src="' + m + 
                          '"/><p class="projname">' + n[M].innerHTML + 
                          '</p><p class="projdesc">' + o[M].innerHTML + "</p></div>"
